@@ -13,21 +13,19 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
-    "target": "es5",
+    "target": "es2015",
     "skipLibCheck": true,
     "stripInternal": true,
-    "noImplicitAny": false,
-    "types": [
-      "@types/meteor",
-      "@types/mocha",
-      "@types/chai",
-      "@types/sinon"
-    ]
+    "noImplicitAny": false
   },
   "include": [
     "imports/**/*.ts",
     "client/**/*.ts",
     "server/**/*.ts"
+  ],
+  "types": [
+    "@types/meteor",
+    "@types/node"
   ],
   "exclude": [
     "node_modules"
